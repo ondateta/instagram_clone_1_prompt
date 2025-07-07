@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:template/main.dart';
+
 import 'package:template/src/views/bottom_nav_view.dart';
 import 'package:template/src/views/feed_view.dart';
 import 'package:template/src/views/notifications_view.dart';
@@ -15,7 +15,7 @@ final router = GoRouter(
       pageBuilder: (context, state) => NoTransitionPage(
         child: const SplashView(),
       ),
-      redirect: (context, state) => '/feed',
+
     ),
     GoRoute(
       path: '/feed',

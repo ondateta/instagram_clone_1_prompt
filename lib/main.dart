@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
       iconTheme: const IconThemeData(
         color: Colors.black,
       ),
-      cardTheme: CardTheme(
+      cardTheme: const CardTheme(
         elevation: 0,
         surfaceTintColor: Colors.transparent,
         color: Color(0xFFF1F1F1),
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
       iconTheme: const IconThemeData(
         color: Colors.white,
       ),
-      cardTheme: CardTheme(
+      cardTheme: const CardTheme(
         elevation: 0,
         surfaceTintColor: Colors.transparent,
         color: Color(0xFF181818),

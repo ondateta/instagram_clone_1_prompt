@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:template/src/views/feed_view.dart';
-import 'package:template/src/views/notifications_view.dart';
-import 'package:template/src/views/post_view.dart';
-import 'package:template/src/views/profile_view.dart';
-import 'package:template/src/views/search_view.dart';
+
+
+
+
+
 
 class BottomNavView extends StatefulWidget {
   const BottomNavView({
